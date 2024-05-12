@@ -67,6 +67,7 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
+import androidx.compose.ui.unit.sp
 import androidx.core.content.ContextCompat
 import com.example.dessertclicker.data.Datasource
 import com.example.dessertclicker.model.Dessert
@@ -245,12 +246,20 @@ private fun DessertClickerAppBar(
         horizontalArrangement = Arrangement.SpaceBetween,
         verticalAlignment = Alignment.CenterVertically,
     ) {
-        Text(
-            text = stringResource(R.string.app_name),
-            modifier = Modifier.padding(start = dimensionResource(R.dimen.padding_medium)),
-            color = MaterialTheme.colorScheme.onPrimary,
-            style = MaterialTheme.typography.titleLarge,
-        )
+        Column {
+            Text(
+                text = stringResource(R.string.app_name),
+                modifier = Modifier.padding(start = dimensionResource(R.dimen.padding_medium)),
+                color = MaterialTheme.colorScheme.onPrimary,
+                style = MaterialTheme.typography.titleLarge,
+            )
+            Text(
+                text = "Sarah Nurhasna K - 5025211105",
+                modifier = Modifier.padding(start = dimensionResource(R.dimen.padding_medium)),
+                color = MaterialTheme.colorScheme.onPrimary,
+                fontSize = 14.sp
+            )
+        }
         IconButton(
             onClick = onShareButtonClicked,
             modifier = Modifier.padding(end = dimensionResource(R.dimen.padding_medium)),

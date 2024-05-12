@@ -1,29 +1,21 @@
-Dessert Clicker app
-=====================
+# Tugas-6-PPB-B-Dessert-Clicker
 
-Code for Android Basics with Compose Codelab.
+| Nama                       | NRP        |
+| -------------------------- | ---------- |
+| Sarah Nurhasna Khairunnisa | 5025211105 |
 
-Introduction
-------------
+### Deskripsi Tugas:
 
-Dessert Clicker is a game about making desserts.
+Membuat aplikasi Dessert Clicker. Pada aplikasi ini, setiap kali pengguna mengetuk makanan penutup di layar, aplikasi akan "membeli" makanan penutup untuk pengguna. Aplikasi mengupdate nilai dalam tata letak untuk:
 
-Press the button, make a dessert, earn the big bucks.
+- Jumlah makanan penutup yang "dibeli"
+- Total pendapatan untuk makanan penutup "yang dibeli"
 
-You use this app in the course to explore the Android lifecycle and log messages to
-the Android console (Logcat).
+### Hasil Aplikasi:
+![hasil](https://github.com/SarahNurhasna/Tugas-4-PPB-B-Halaman-Login/assets/114993457/f9ac9ef2-2807-4f67-a1d1-5a11d51d1766)
+<br>
 
-Pre-requisites
---------------
-
-You need to know:
-- How to open, build, and run apps with Android Studio.
-- What an activity is, and how to create one in your app.
-- What the activity's onCreate() method does, and the kind of operations
-  that are performed in that method.
+[hasil-record.mp4](https://github.com/SarahNurhasna/Tugas-7-PPB-B-Dessert-Clicker/assets/114993457/92417a4b-7c4d-4190-8b90-8c121a5ac8ae)
 
 
-Getting Started
----------------
 
-1. Download and run the app.
